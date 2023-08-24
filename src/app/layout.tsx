@@ -1,5 +1,4 @@
 import './global.css'
-import GithubCorner from '../components/github-corner/GithubCorner'
 
 export const metadata = {
   title: 'NextGram',
@@ -8,13 +7,11 @@ export const metadata = {
   metadataBase: new URL('https://nextgram.vercel.app'),
 }
 
-export default function Layout(props: { children: React.ReactNode, modal: React.ReactNode }) {
+export default function Layout(props: { children: React.ReactNode }) {
   return (
     <html>
       <body>
-        <GithubCorner />
         {props.children}
-        {props.modal}
       </body>
     </html>
   )

@@ -44,27 +44,20 @@ const photos: Photo[] = [
   },
   {
     id: '6',
-    name: 'lafond.eth',
-    href: 'https://twitter.com/laf0nd/status/1464640065615929346',
-    username: '@laf0nd',
-    imageSrc: 'https://pbs.twimg.com/media/FFNyYEAXsAMdOhV?format=jpg',
-  },
-  {
-    id: '7',
     name: '山岸和利💛',
     href: 'https://twitter.com/ykzts/status/1426358452356407297',
     username: '@ykzts',
     imageSrc: 'https://pbs.twimg.com/media/E8txb2yVkAQxRVw?format=jpg',
   },
   {
-    id: '8',
+    id: '9',
     name: 'Altngelo',
     href: 'https://twitter.com/AfterDarkAngelo/status/1456372859090075648',
     username: '@AfterDarkAngelo',
     imageSrc: 'https://pbs.twimg.com/media/FDYTZN1VIAAT-X1?format=jpg',
   },
   {
-    id: '9',
+    id: '8',
     name: 'Matias Baldanza',
     href: 'https://twitter.com/matiasbaldanza/status/1404834163203715073',
     username: '@matiasbaldanza',
@@ -73,3 +66,7 @@ const photos: Photo[] = [
 ];
 
 export default photos;
+
+export const getPhotoTripId = (photoId: string) => {
+    return parseInt(`9898${photoId}`)
+}

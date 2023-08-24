@@ -1,6 +1,6 @@
-import Frame from '../../../../components/frame/Frame'
-import Modal from '../../../../components/modal/Modal'
-import swagPhotos, { Photo } from '../../../../photos'
+import Frame from '../../../../../components/frame/Frame'
+import Modal from '../../../../../components/modal/Modal'
+import swagPhotos, { Photo } from '../../../../../photos'
 
 export default function PhotoModal({ params: { id: photoId } }: { params: { id: string } }) {
   const photos = swagPhotos
